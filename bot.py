@@ -1,12 +1,12 @@
 import os
 import json
-import telepot
+import telepotpro
 import youtube_dl
 from random import randint
 from youtubesearchpython import SearchVideos
 from multiprocessing import Process
 
-bot  =  telepotpro . Bot ( "1690696524:AAH1pfx5ikQCm7DMr3fA-hX5uPOZyg5GVtQ" )
+bot  =  telepotpro . Bot ( "API_TOKEN" )
 class Chat:
 	def __init__(self, chat_id, text, msg):
 		self.msg = msg
